@@ -1,6 +1,6 @@
 # Evaluation
 
-* **Status:** Progress
+* **Status:** Accepted
 * **PR Link:** [Zenlink Grant proposal](https://github.com/w3f/Open-Grants-Program/pull/56). 
 * **Milestone:** 1
 * **Kusama Identity:** DoZVD3qkjXysdjh3pg6C2UkVNkSw3xWNzch58aPMyXq5mer
@@ -19,5 +19,5 @@
 ## General Notes
 Overall the implementation is clean and the process is well known (ERC20 standard and Uniswap V1 protocol). The code is easy to understand and documented.  
 Cargo Clippy gives some minor warnings but for a POC I think is fine.   
-There's space to improve the test coverage and the tutorial. Mistakes in the whitepaper (parameters, interface description, typos ) are being communicated, the team is working on it.  
+There's space to improve the test coverage, the tutorial readability and the whitepaper. Mistakes in the whitepaper (parameters, interface description, typos ) are being communicated, the team is working on it.  
 ERC20 Rust interfaces are a bit verbose in the specifications and may be redundant in case of technical documentation.
